@@ -16,17 +16,16 @@ After this module, you will get familiar with MXNet YOLO3.
 In this module we are going to find out how to use DeepSORT with MXNet YOLO3 as people-object-tracker.
 After this module, you will get mis-detected images by DeepSORT Tracker in your local storage.
 
-- **02. Sagemaker Ground Truth**(200) - Ground Truth makes your labeling job easy.
+- **02. SageMaker Ground Truth**(200) - Ground Truth makes your labeling job easy.
 With it you can label image bounding box or source.
 In this module we are going to label mis-detected images with bounding box.
-After this module, you will get 3 manifest files, such as `input.manifest`, `train.manifest` and `test.manifest` which are required to create Sagemaker Training Jobs.
+After this module, you will get 3 manifest files, such as `input.manifest`, `train.manifest` and `test.manifest` which are required to create SageMaker Training Jobs.
 
-- **03. Sagemaker HyperParameter Optimizer(HPO)**(300) - Finding Optimized HyperParamter Optimization is tedious job but very important also.
-Sagemaker Hyperparameter Tuning Job will find the most optimized hyperparameter for your model automatically.
+- **03. SageMaker HyperParameter Optimizer(HPO)**(300) - Finding Optimized HyperParamter Optimization is tedious job but very important also.
+SageMaker Hyperparameter Tuning Job will find the most optimized hyperparameter for your model automatically.
 After this module, you will have a finetuned model, that is finetuned with the automatically selected hyperparameter, in S3 bucket.
 
-- **04. Sagemaker Endpoint**(200) - Sagemaker Endpoint is the easiest way to serve your model on AWS, especially when you trained with sagemaker training job like HyperParameter Tuning Job.
+- **04. SageMaker CPU Endpoint**(200) - SageMaker Endpoint is the easiest way to serve your model on AWS, especially when you trained with SageMaker training job like HyperParameter Tuning Job.
 After this module, you will get endpoint serving the model you finetuned with your own data.
 
-- **05. Sagemaker Elastic Inference**(100) - Elastic Inference provides GPU acceleration to your endpoint. WIth EI, you can increase performance of the model and decrease the cost at the same time.
-After this module, you will get EI enabled Sagemaker Endpoint.
+- **05. SageMaker GPU Endpoint**(200) - For applications that need to be very responsive, you might consider using GPU instances. After this module, you will get GPU enabled SageMaker Endpoint.
