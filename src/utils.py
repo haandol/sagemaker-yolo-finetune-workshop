@@ -41,8 +41,8 @@ def convert_gt_to_coco(data_path, channel, image_path, field_name, output='coco.
                     'bbox': [
                         int(bbox['left']),
                         int(bbox['top']),
-                        int(bbox['left']) + int(bbox['width']),
-                        int(bbox['top']) + int(bbox['height'])
+                        int(bbox['width']),
+                        int(bbox['height'])
                     ],
                     'image_id': image_id,
                     'id': anno_id,
