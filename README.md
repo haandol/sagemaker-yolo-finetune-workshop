@@ -1,4 +1,4 @@
-# Finetune Person Tracker Worshop
+# Finetune Person Tracker Workshop
 
 This workshop is about how to use and finetune MXNet pretrained YOLO3 model for person tracking workload on AWS.
 
